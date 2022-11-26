@@ -1,0 +1,107 @@
+:root {
+    --main-white: #f0f0f0;
+    --main-red: #be3144;
+    --main-blue: #45567d;
+    --main-gray: #303841;
+}
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+.join {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background: #caa069;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Rye', cursive;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 0 #caa069, 1px 8px 5px #000000;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.container-join {
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 25px;
+    max-width: 700px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem solid black;
+}
+
+.row {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.join-col {
+    flex-basis: 31%;
+    background-image: url(/images/vintagebg3.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    margin: 4%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    border: 2px solid rgb(49, 49, 49);
+    transition: 0.5s;
+}
+
+.join-col p {
+    color: black;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.join-col {
+    box-shadow: 0 0 60px 20px rgba(0, 0, 0, 0.438);
+}
+
+
+.arrow-right {
+    width: 0;
+    height: 0;
+    
+    border-top: 32px solid transparent;
+    border-bottom: 32px solid transparent;
+    
+    border-left: 40px solid #000000;
+}
+
+.arrow-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 0;
+    
+}

@@ -1,0 +1,35 @@
+
+body {
+    --color-primary: #957200;
+    --color-primary-dark: #007f67;
+    --color-secondary: #252c6a;
+    --color-error: #cc3333;
+    --color-success: #4bb544;
+}
+
+
+
+.modal-header, h4 .close {
+    height: 125px;
+  }
+
+  .modal-footer {
+    background-color: #ffffffd8;
+  }
+  
+  .modal-dialog {
+    max-width: 450px;
+    
+  }
+  
+  #submit-btn {
+    background-color: #a43e00;
+    border-color: #a43e00;
+  }
+  
+  .modal-footer p{
+    font-size: 1.5em;
+    color: #000;
+    line-height: 25px;
+  }
+  

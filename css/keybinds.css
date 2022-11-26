@@ -1,0 +1,50 @@
+#keybinds {
+    background-color: #caa069;
+}
+
+.keybinds-title h2 {
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Rye', cursive;
+    color:rgb(0, 0, 0);
+    text-shadow: 1px 1px 0 #caa069, 1px 8px 5px #000000;
+    
+}
+
+.keybinds-title p {
+    font-size: 15px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-top: 1rem;
+    color: rgb(0, 0, 0);
+    border-bottom: 0.2rem solid black;
+    margin: 0 auto 6rem auto;
+    padding-bottom: 25px;
+    max-width: 700px;
+}
+
+.container-keybinds {
+    background-color: #caa069;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.key {
+    display: block;
+    border: 1px solid #000000;
+    color: rgb(0, 0, 0);
+    background-color: #d46e1ba8;
+    border-radius: 6px;
+    font-size: 1.5rem;
+    padding: 15px;
+    width: 5%;
+    margin: auto;
+}
+
+.key-txt {
+    padding-top: 30px;
+    font-size: 1.4rem;
+}

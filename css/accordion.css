@@ -1,0 +1,88 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 10px;
+    box-sizing: border-box; 
+}
+
+#accordion {
+    background: #caa069;
+}
+
+.accordion-txt {
+    padding-top:100px ;
+}
+
+.accordion-txt h2 {
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Rye', cursive;
+    color:rgb(0, 0, 0);
+    text-shadow: 1px 1px 0 #caa069, 1px 8px 5px #000000;
+}
+
+.accordion-txt p {
+    font-size: 15px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-top: 1rem;
+}
+
+.accordion-txt p {
+    color: rgb(0, 0, 0);
+    border-bottom: 0.2rem solid black;
+    margin: 0 auto 6rem auto;
+    padding-bottom: 25px;
+    max-width: 700px;
+}
+
+.container-accordion {
+    width: 45%;
+    min-width: 500px;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #caa069 ;
+}
+
+.wrapper {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    padding: 15px 40px;
+    border-radius: 5px;
+    box-shadow: 0 15px 25px rgba(0,0,50,0.2);
+}
+
+.toggle {
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #492e15;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px 0;
+}
+
+.content{
+    position: relative;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 30px;
+    height: 0;
+    overflow:hidden;
+    transition: all 0.5s;
+}
